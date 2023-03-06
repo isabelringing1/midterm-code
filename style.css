@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    overflow: hidden;
+}
+
+#background{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.object{
+    position: fixed;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    transform: translate(-50%, -50%);
+}
+
+#debug{
+    color: #DB58DE;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+}
